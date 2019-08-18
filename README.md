@@ -1,2 +1,2 @@
 # google-homepage
- Recreating the Google homepage 
+A recreation of the Google homepage 
