@@ -55,29 +55,20 @@ html body {
 }
 
 /* Nav Bar */
-
 nav {
-    display: flex;
     margin: 0px;
     padding: 8px;
     margin-bottom: 109px;
     list-style-type: none;
-    justify-content: space-between;
 }
 
-#header-items-left {
+#header-left {
     display: inline-block;
-    white-space: nowrap;
-    margin-right: 30px;
+    margin-right: 60%;
 }
 
-.header-right {
-    padding-right: 15%;
-}
-
-#header-items-right {
+#header-right {
     display: inline-block;
-    white-space: nowrap;
 }
 
 li {
@@ -89,22 +80,15 @@ li {
 
 .footer {
     display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     justify-content: space-between;
-    background: #F2F2F2;
 }
 
 .footer-left {
-    margin-right: 30px;
-    white-space: nowrap;
+    margin-right: auto;
 }
 
 .footer-right {
-    padding-right: 15%;
-    white-space: nowrap;
+
 }
 /* OLD FOOTER SYLING
 footer {
@@ -142,6 +126,3 @@ a:hover {
     text-decoration: underline;
 }
 
-textarea:focus, input:focus{
-    outline: none;
-}
